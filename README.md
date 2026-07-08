@@ -16,6 +16,14 @@ Hanh trinh tu hoc Thiet ke Vi mach (huong Design Verification - DV).
 - [x] mux 2:1 + testbench + waveform
 - [x] full_adder
 
+### Tuan 2 - Verilog Language (HDLBits >30 bai)
+- [x] Basics (gates, wires)
+- [x] Vectors (part select, concat, replication)
+- [x] Modules: Hierarchy (instantiate, adder)
+- [x] Procedures (always block, if/case, avoiding latches)
+- [ ] Conditional + FSM (dang toi)
+
 ## Cau truc
 - `test/` - mux2 (bo chon kenh)
 - `week1/` - full_adder (bo cong 1-bit)
+- `notes/` - ghi chu ly thuyet
