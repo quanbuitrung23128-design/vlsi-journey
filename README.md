@@ -1,35 +1,34 @@
 ﻿# VLSI Journey
 
-Hanh trinh tu hoc Thiet ke Vi mach (huong Design Verification - DV).
+Self-study journey into VLSI / IC Design, focused on Design Verification (DV).
 
-- **Bat dau:** 15/06/2026
-- **Nganh:** Khoa hoc May tinh - HCMUT
-- **Muc tieu:** Thuc tap Vi mach (DV) + phong van tot
+- **Started:** June 15, 2026
+- **Major:** Computer Science - HCMUT
+- **Goal:** Land an IC Design Verification (DV) internship
 
-## Cong cu
-- Icarus Verilog (mo phong) + VaporView / EDA Playground (xem waveform)
+## Tools
+- Icarus Verilog (simulation) + VaporView / EDA Playground (waveform viewing)
 
-## Tien do
-### Tuan 1 - Nen so + Verilog co ban
-- [x] Number system, bu 2, K-map
-- [x] Cai tool
-- [x] mux 2:1 + testbench + waveform
-- [x] full_adder
+## Progress
+### Week 1 - Number systems & basic Verilog
+- [x] Number systems, 2's complement, K-maps
+- [x] Toolchain setup
+- [x] 2:1 mux + testbench + waveform
+- [x] Full adder
 
-### Tuan 2 - Verilog Language (HDLBits >30 bai)
+### Week 2 - Verilog Language (30+ HDLBits problems)
 - [x] Basics (gates, wires)
-- [x] Vectors (part select, concat, replication)
-- [x] Modules: Hierarchy (instantiate, adder)
-- [x] Procedures (always block, if/case, avoiding latches)
-- [ ] Conditional + FSM (dang toi)
+- [x] Vectors (part select, concatenation, replication)
+- [x] Modules: Hierarchy (instantiation, adders)
+- [x] Procedures (always blocks, if/case, avoiding latches)
+- [ ] Conditional + FSM (in progress)
 
-### Tuan 3 - FSM (May trang thai)
-- [x] Hieu khai niem FSM (Moore/Mealy, so do trang thai)
-- [ ] traffic_light FSM (dang lam)
+### Week 3 - FSM (Finite State Machines)
+- [x] FSM concepts (Moore/Mealy, state diagrams)
+- [ ] traffic_light FSM (in progress)
 - [ ] sequence detector "1011"
 
-## Cau truc
-- `test/` - mux2 (bo chon kenh)
-- `week1/` - full_adder (bo cong 1-bit)
-- `notes/` - ghi chu ly thuyet
-
+## Structure
+- `test/` - mux2 (2:1 multiplexer)
+- `week1/` - full_adder (1-bit adder)
+- `notes/` - study notes
