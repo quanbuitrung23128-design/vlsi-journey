@@ -23,7 +23,13 @@ Hanh trinh tu hoc Thiet ke Vi mach (huong Design Verification - DV).
 - [x] Procedures (always block, if/case, avoiding latches)
 - [ ] Conditional + FSM (dang toi)
 
+### Tuan 3 - FSM (May trang thai)
+- [x] Hieu khai niem FSM (Moore/Mealy, so do trang thai)
+- [ ] traffic_light FSM (dang lam)
+- [ ] sequence detector "1011"
+
 ## Cau truc
 - `test/` - mux2 (bo chon kenh)
 - `week1/` - full_adder (bo cong 1-bit)
 - `notes/` - ghi chu ly thuyet
+
