@@ -25,10 +25,12 @@ Self-study journey into VLSI / IC Design, focused on Design Verification (DV).
 
 ### Week 3 - FSM (Finite State Machines)
 - [x] FSM concepts (Moore/Mealy, state diagrams)
-- [ ] traffic_light FSM (in progress)
+- [x] traffic_light FSM (Moore: XANH -> VANG -> DO)
 - [ ] sequence detector "1011"
 
 ## Structure
 - `test/` - mux2 (2:1 multiplexer)
 - `week1/` - full_adder (1-bit adder)
+- `week3/` - traffic_light FSM
 - `notes/` - study notes
+
