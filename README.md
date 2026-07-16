@@ -28,9 +28,16 @@ Self-study journey into VLSI / IC Design, focused on Design Verification (DV).
 - [x] traffic_light FSM (Moore: XANH -> VANG -> DO)
 - [ ] sequence detector "1011"
 
+## Week 3 Demo - Traffic Light FSM
+Simulation waveform (Icarus Verilog + EPWave). The state `tt_hien_tai` cycles
+`0 -> 1 -> 2` (XANH -> VANG -> DO) on each rising clock edge, and the lights follow.
+
+![Traffic Light FSM waveform](week3/traffic_light_waveform.png)
+
 ## Structure
 - `test/` - mux2 (2:1 multiplexer)
 - `week1/` - full_adder (1-bit adder)
 - `week3/` - traffic_light FSM
 - `notes/` - study notes
+
 
